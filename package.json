@@ -1,0 +1,20 @@
+{
+  "name": "tinypack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./lib/index.js"
+  },
+  "keywords": [],
+  "author": "demon",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.12.16",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0"
+  }
+}
